@@ -32,7 +32,7 @@ return [
       | By default, it will redirect to "http://your_domain/nagad/callback"
       | you may change this url any time.
       */
-    "callback_url"    => env("NAGAD_CALLBACK_URL", "http://your_domain/nagad/callback"),
+    "callback_url"    => env("NAGAD_CALLBACK_URL", "http://localhost:8000/nagad/callback"),
     "callback_url_2"    => env("NAGAD_CALLBACK_URL2", "http://your_domain/nagad/callback"),
     "callback_url_3"    => env("NAGAD_CALLBACK_URL3", "http://your_domain/nagad/callback"),
     "callback_url_4"    => env("NAGAD_CALLBACK_URL4", "http://your_domain/nagad/callback"),
