@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "707f4435db035d2fe9535802d1672e72",
     "packages": [
         {
             "name": "brick/math",
@@ -1044,6 +1044,65 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "karim007/laravel-nagad",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/karim-007/laravel-nagad.git",
+                "reference": "5f3edf6d7c9ee8d436ba8380710ab7ce81591f5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/karim-007/laravel-nagad/zipball/5f3edf6d7c9ee8d436ba8380710ab7ce81591f5b",
+                "reference": "5f3edf6d7c9ee8d436ba8380710ab7ce81591f5b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "illuminate/support": "^6|^7|^8|^9|^10",
+                "php": "^7.4|^8.0|^8.1|^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Karim007\\LaravelNagad\\NagadServiceProvider"
+                    ],
+                    "aliases": {
+                        "LaravelNagad": "Karim007\\LaravelNagad\\LaravelNagad"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Karim007\\LaravelNagad\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Md abdul karim",
+                    "email": "karim.cse007@gmail.com"
+                }
+            ],
+            "description": "This is nagad payment gateway for laravel",
+            "keywords": [
+                "laravel-nagad",
+                "laravel-nagad-payment",
+                "nagad",
+                "nagad-payment",
+                "nagad-payment-gateway"
+            ],
+            "support": {
+                "issues": "https://github.com/karim-007/laravel-nagad/issues",
+                "source": "https://github.com/karim-007/laravel-nagad/tree/v1.1"
+            },
+            "time": "2023-05-18T19:16:30+00:00"
         },
         {
             "name": "laravel/framework",

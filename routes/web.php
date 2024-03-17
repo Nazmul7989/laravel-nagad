@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\NagadController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('nagad/pay',[NagadController::class,'pay'])->name('nagad.pay');
+Route::get('nagad/callback', [NagadController::class,'callback']);
+Route::get('nagad/refund/{paymentRefId}', [NagadController::class,'refund']);
+
