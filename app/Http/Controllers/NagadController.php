@@ -10,7 +10,7 @@ class NagadController extends Controller
 {
     public function pay()
     {
-        $amount = 1000;
+        $amount = 2;
         $trx_id = uniqid();
         //if you have multipule/dynamic callback url then uncomment bellow line and use dynamic callbackurl
         //otherwise don't do anything
